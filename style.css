@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Joan&display=swap');
+
+body {
+    font-family: 'Joan', serif;
+    background-color: #ECF7FD;
+}
+
+p , li {
+    font-size: 20px;
+    font-family: 'Joan', serif;
+}
+.headline {
+    color: #C2630A;
+    font-size: 25px;
+}
+
+.description {
+    font-family: 'Architects Daughter';
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: black;
+
+}
+
+.picture {
+    border-radius: 25px;
+    padding: 6px;
+    background-color: #A0A0BB;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 7%;
+    text-decoration: none;
+}
