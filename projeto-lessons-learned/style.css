@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  background-color: rgb(253, 251, 251);
+  border-bottom: 5px solid blue;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  padding: 1% 0% 0%;
+  height: 50px;
+}
+
+#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+section {
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+#minha_foto {
+  width: 90%;
+  border-radius: 25%;
+  padding: 1%;
+}
+
+.foto-e-link {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+}
+
+.button {
+  background-color: lightblue;
+  padding: 1%;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+}
+
+.listas {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 2%;
+  width: 30%;
+  vertical-align: top;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+li {
+  list-style: none;
+}
+
+.titulo-listas {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.section-two {
+  background-color: rgb(241, 241, 241);
+  padding: 5%;
+}
+
+.lado-esquerdo , .lado-direito {
+  padding: 1%;
+  display: inline-block;
+  width: 45%;
+  font-size: 20px;
+  margin: 1%;
+  line-height: 130%;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+footer {
+  background-color: blue;
+  padding: 10px;
+  height: 26px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+table , th , td {
+  border: 1px solid;
+  text-align: center;
+  line-height: 200%;
+}
+
+.table-title {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
