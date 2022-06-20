@@ -36,6 +36,10 @@ section {
   margin-top: 7%;
 }
 
+.section-one {
+  height: 400px;
+}
+
 #minha_foto {
   width: 90%;
   border-radius: 25%;
